@@ -1,0 +1,9 @@
+footer .footer-top{display:grid;grid-template-columns:1.1fr 1fr 1.2fr;gap:60px;align-items:start}
+footer .footer-company,footer .footer-contact{border-top:1px solid #466056;margin-top:28px;padding-top:16px;display:grid;gap:6px}
+footer .footer-company h4,footer .footer-contact h4{margin:0 0 7px;font-size:11px;letter-spacing:.08em;color:#d8e0d6}
+footer .footer-company strong{font-size:16px;line-height:1.35;color:#fffdf8}
+footer .footer-company span,footer .footer-contact a,footer .footer-contact p{color:#d0d8cf;font-size:14px;line-height:1.65;margin:0}
+footer .footer-contact a{text-decoration:none}
+footer .footer-contact a:hover{text-decoration:underline;color:#fffdf8}
+footer .footer-legal{font-size:12px;line-height:1.5;color:#c2ccc1}
+@media(max-width:850px){footer .footer-top{display:block}footer .footer-contact,footer .footer-company{margin-top:30px}footer .footer-legal{display:block}footer .footer-legal span{display:block;margin-top:8px}}
