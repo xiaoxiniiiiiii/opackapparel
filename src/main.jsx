@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { ArrowRight, Check, ChevronDown, CircleUserRound, CreditCard, Heart, Menu, PackageCheck, Search, ShieldCheck, ShoppingBag, Truck, X } from 'lucide-react';
 import './styles.css';
 import './footer.css';
+import './hero.css';
 
 const company = {
   name: '香港瑞臻國際貿易有限公司', email: 'vtcofopp@outlook.com', phone: '16555178416',
